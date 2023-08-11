@@ -2,11 +2,18 @@
 
 
 ### Тестовое API на фреймворке Laravel
+#### Настройки БД
+DB_CONNECTION=mysql
+DB_HOST=db4free.net
+DB_PORT=3306
+DB_DATABASE=mysql_wb
+DB_USERNAME=adminwb
+DB_PASSWORD=hht-cmi-x74-AqU
 
 #### Реализована выдача сущностей 
 - Продажи 
 - Заказы
-- Склады
+- Склады (на 11.08.2023 сущности приходят пустые поэтому данные пустые )
 - Доходы
 
 ### Основное
@@ -56,8 +63,6 @@ _Выгрузка только за текущий день_
 - dateTo
 
 `Путь: GET /api/incomes`
-
-`Стек: docker/docker-compose, php 8.1, Laravel 8, Laravel Octane`
 
 [Ссылка на коллекцию Postman](https://www.postman.com/cy322666/workspace/app-api-test/overview)
 
