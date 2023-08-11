@@ -3,12 +3,12 @@
 
 ### Тестовое API на фреймворке Laravel
 #### Настройки БД
-DB_CONNECTION=mysql
-DB_HOST=db4free.net
-DB_PORT=3306
-DB_DATABASE=mysql_wb
-DB_USERNAME=adminwb
-DB_PASSWORD=hht-cmi-x74-AqU
+- DB_CONNECTION=mysql
+- DB_HOST=db4free.net
+- DB_PORT=3306
+- DB_DATABASE=mysql_wb
+- DB_USERNAME=adminwb
+- DB_PASSWORD=hht-cmi-x74-AqU
 
 #### Реализована выдача сущностей 
 - Продажи 
